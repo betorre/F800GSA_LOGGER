@@ -2,8 +2,8 @@
 #include <WiFi.h>
 #include <time.h>
 //---WIFI
-const char* ssid     = "CASTILLO";
-const char* password = "3123126060";
+const char* ssid     = "SSID";
+const char* password = "WIFI_PASSWORD";
 //---TIME
 const char* ntpServer = "pool.ntp.org";
 const long  gmtOffset_sec = -18000;//3600 * 5, but as it is -5 GMT, need to add "-" Sign at beggining
